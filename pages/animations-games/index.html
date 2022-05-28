@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spider-Verse | Animations & Games</title>
+    <link rel="stylesheet" href="/assets/css/home-styles.css">
+    <link rel="shortcut icon" href="/assets/images/icons/spider.svg" type="image/x-icon" />
+</head>
+<body>
+  <nav class="s-menu">
+    <ul>
+      <li class="s-menu__item">
+        <a href="/">Movies</a>
+      </li>
+      <li class="s-menu__item s-menu__item--ative">
+        <a href="/pages/animations-games/">Animations & Games</a>
+      </li>
+      
+      <li class="s-menu__item s-menu__icon">
+        <img src="/assets/images/icons/spider.svg" alt="Spider-Man Multiverse">
+      </li>
+      
+      <li class="s-menu__item">
+        <a href="/pages/miles-morales-movie/">Miles Morales</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="/pages/peter-parker/">Peter Parker</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="/pages/miles-morales-game/">Miles Morales Game</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="s-container">
+    <div class="s-cards-carousel" style="transform: translateZ(-34vw) rotateY(0deg);">
+      <a href="/pages/miles-morales-game/" class="s-card" id="spider-man-milesg">
+        <img class="s-card__background" src="/assets/images/s-miles-game/bg-miles.jpg">
+        <img class="s-card__image" src="/assets/images/s-miles-game/miles-morales.png" alt="Miles Morales Game">
+        <h2 class="s-card__title">Miles Morales Game</h2>
+      </a>
+
+      <a href="/pages/peter-parker/" class="s-card .s-card--central" id="spider-man-peter">
+        <img class="s-card__background" src="/assets/images/s-peter/bg-peter.jpg">
+        <img class="s-card__image" src="/assets/images/s-peter/peter-parker.png" alt="Peter Parker">
+        <h2 class="s-card__title">Peter Parker</h2>
+      </a>
+      
+      <a href="/pages/miles-morales-movie/" class="s-card" id="spider-man-milesm">
+        <img class="s-card__background" src="/assets/images/s-miles-movie/bg-miles-movie.jpg">
+        <img class="s-card__image" src="/assets/images/s-miles-movie/miles-morales.png" alt="Miles Morales Movie">
+        <h2 class="s-card__title">Miles Morales</h2>
+      </a>
+
+
+    </div>
+  </div>
+
+  <div class="s-controller">
+    <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">
+      01
+    </div>
+    <div id="2" onclick="selectCarouselItem(this)" class="s-controller__button">
+      02
+    </div>
+    <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
+      03
+    </div>
+    <div class="s-controller__line"></div>
+  </div>
+
+  <script src="/assets/scripts/index.js"></script>
+</body>
+</html>

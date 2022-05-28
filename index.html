@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Spider-Man | Movies</title>
+  <link rel="shortcut icon" href="/assets/images/icons/spider.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="/assets/css/home-styles.css">
+</head>
+
+<body>
+  <nav class="s-menu">
+    <ul>
+      <li class="s-menu__item s-menu__item--ative">
+        <a href="/">Movies</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="/pages/animations-games/">Animations & Games</a>
+      </li>
+
+      <li class="s-menu__item s-menu__icon">
+        <img src="/assets/images/icons/spider.svg" alt="Spider-Man Multiverse">
+      </li>
+
+      <li class="s-menu__item">
+        <a href="/pages/tobey-maguire/spiderman1.html">Tobey Maguire</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="/pages/andrew-garfield/spiderman1.html">Andrew Garfield</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="/pages/tom-holland/spiderman1.html">Tom Holland</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="s-container">
+    <div class="s-cards-carousel" style="transform: translateZ(-34vw) rotateY(0deg);">
+
+      <a href="/pages/andrew-garfield/spiderman1.html" class="s-card" id="spider-man-andrew">
+        <img class="s-card__background" src="/assets/images/s-andrew/bg-andrew.jpg">
+        <img class="s-card__image" src="/assets/images/s-andrew/andrew-garfield.png" alt="Andrew Garfield">
+        <h2 class="s-card__title">Andrew Garfield</h2>
+      </a>
+
+      <a href="./pages/tobey-maguire/spiderman1.html" class="s-card .s-card--central" id="spider-man-tobey">
+        <img class="s-card__background" src="/assets/images/s-tobey/bg-tobey.jpg">
+        <img class="s-card__image" src="/assets/images/s-tobey/tobey-maguire.png" alt="Tobey Maguire">
+        <h2 class="s-card__title">Tobey Maguire</h2>
+      </a>
+
+      <a href="./pages/tom-holland/spiderman1.html" class="s-card" id="spider-man-tom">
+        <img class="s-card__background" src="/assets/images/s-tom/bg-tom.jpg">
+        <img class="s-card__image" src="/assets/images/s-tom/tom-holland.png" alt="Tom Holland">
+        <h2 class="s-card__title">Tom Holland</h2>
+      </a>
+
+    </div>
+  </div>
+
+  <div class="s-controller">
+    <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">
+      01
+    </div>
+    <div id="2" onclick="selectCarouselItem(this)" class="s-controller__button">
+      02
+    </div>
+    <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
+      03
+    </div>
+    <div class="s-controller__line"></div>
+  </div>
+
+  <script src="/assets/scripts/index.js"></script>
+</body>
+
+</html>

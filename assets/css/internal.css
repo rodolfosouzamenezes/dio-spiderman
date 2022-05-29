@@ -91,11 +91,61 @@
 }
 
 .s-spiderman-miles-01 {
-  background-image: url('../images/s-miles-movie/gallery/movie-01/bg-miles-01.jpg');
+  background-image: url('../images/s-miles-movie/movie-01/background.png');
   background-size:cover;
 }
 
 .s-spiderman-miles-02 {
-  background-image: url('../images/s-miles-movie/gallery/movie-02/bg-miles-02.png');
+  background-image: url('../images/s-miles-movie/movie-02/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-tobey-01 {
+  background-image: url('../images/s-tobey/movie-01/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-tobey-02 {
+  background-image: url('../images/s-tobey/movie-02/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-tobey-03 {
+  background-image: url('../images/s-tobey/movie-03/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-andrew-01 {
+  background-image: url('../images/s-andrew/movie-01/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-andrew-02 {
+  background-image: url('../images/s-andrew/movie-02/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-tom-01 {
+  background-image: url('../images/s-tom/movie-01/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-tom-02 {
+  background-image: url('../images/s-tom/movie-02/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-tom-03 {
+  background-image: url('../images/s-tom/movie-03/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-miles-game {
+  background-image: url('../images/s-miles-game/background.png');
+  background-size:cover;
+}
+
+.s-spiderman-peter {
+  background-image: url('../images/s-peter/background.png');
   background-size:cover;
 }

@@ -104,7 +104,7 @@ body::before {
   transform: scaleX(-1);
 }
 
-.s-card__title--ative {
+.s-card__title--active {
   transform: scaleX(1);
 }
 

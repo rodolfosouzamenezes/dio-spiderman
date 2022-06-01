@@ -26,12 +26,18 @@ function selectCarouselItem(selectedButtonElement) {
   const transform = carousel.style.transform;
   const rotateY = transform.match(/rotateY\((-?\d+deg)\)/i);
   const rotateYDeg = -120 * (Number(selectedItem) - 1);
-  console.log(rotateYDeg);
+  rotateTitle(selectedItem);
   const newTransform = transform.replace(rotateY[0], `rotateY(${rotateYDeg}deg)`);
-
   carousel.style.transform = newTransform;
 
   const activeButtonElement = document.querySelector('.s-controller__button--active');
   activeButtonElement.classList.remove('s-controller__button--active');
   selectedButtonElement.classList.add('s-controller__button--active');
+}
+
+function rotateTitle(selectedItem) {
+  const selectedCard = document.getElementById(`s-${selectedItem}`)
+  const centralCard = document.querySelector('.s-card__title--active');
+  centralCard.classList.remove('s-card__title--active');
+  selectedCard.classList.add('s-card__title--active');
 }
